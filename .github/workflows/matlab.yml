@@ -25,7 +25,7 @@ jobs:
           cache: true
           # Set up additional products using the products input.
           # See https://github.com/matlab-actions/setup-matlab/#set-up-matlab
-          products: MATLAB
+          products: Parallel Computing Toolbox
 
       # Run tests authored using the MATLAB unit testing framework or Simulink Test.
       - name: Run MATLAB tests
