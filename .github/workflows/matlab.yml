@@ -31,7 +31,7 @@ jobs:
       - name: Run MATLAB tests
         uses: matlab-actions/run-command@v2
         with:
-          command: matlab -batch "ci_release"
+          command: ci_release
         # uses: matlab-actions/run-tests@v2
         # If you are not using a MATLAB project, add your source code to the path using the source-folder input.
         # with:
