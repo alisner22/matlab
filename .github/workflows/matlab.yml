@@ -29,6 +29,7 @@ jobs:
 
       # Run tests authored using the MATLAB unit testing framework or Simulink Test.
       - name: Run MATLAB tests
+        uses: matlab-actions/run-command@v2
         run: matlab -batch "ci_release"
         # uses: matlab-actions/run-tests@v2
         # If you are not using a MATLAB project, add your source code to the path using the source-folder input.
