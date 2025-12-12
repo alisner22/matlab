@@ -3,4 +3,7 @@
 % v = pkg.Version;
 % pkg.Version = matlab.mpm.Version(v.Major, v.Minor, v.Patch + 1);
 
-ver -support
+parfor i = 1:3
+    fprintf("hi");
+end
+
