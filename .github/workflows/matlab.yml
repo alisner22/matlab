@@ -27,7 +27,6 @@ jobs:
           # See https://github.com/matlab-actions/setup-matlab/#set-up-matlab
           products: >
             MATLAB
-            Parallel_Computing_Toolbox
 
       # Run tests authored using the MATLAB unit testing framework or Simulink Test.
       - name: Run MATLAB tests
