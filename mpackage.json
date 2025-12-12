@@ -1,0 +1,19 @@
+{
+    "name": "mpackage",
+    "version": "1.0.0",
+    "id": "6da11b11-c673-459f-b9d2-596e13649389",
+    "formerNames": [],
+    "displayName": "mpackage",
+    "summary": "",
+    "description": "",
+    "provider": {
+        "name": "",
+        "organization": "",
+        "email": "",
+        "url": ""
+    },
+    "folders": [],
+    "dependencies": [],
+    "releaseCompatibility": "",
+    "schemaVersion": "1.1.0"
+}
